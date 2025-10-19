@@ -1,0 +1,103 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Wrapper box */
+.wrapper {
+    background: #fff;
+    width: 90%;
+    max-width: 520px;
+    padding: 30px 35px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 140px;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+textarea:focus {
+    border-color: #66a6ff;
+}
+
+/* Buttons and controls */
+.options {
+    margin-top: 15px;
+    text-align: center;
+}
+
+label {
+    font-weight: 500;
+    color: #444;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    margin: 10px 0;
+    font-size: 15px;
+    outline: none;
+}
+
+/* Buttons styling */
+.btns {
+    margin-top: 15px;
+}
+
+button {
+    background: #66a6ff;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    margin: 6px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #558de8;
+}
+
+.note {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #666;
+}
