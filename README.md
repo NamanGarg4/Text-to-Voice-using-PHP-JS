@@ -23,6 +23,7 @@ Works best on:
 3. Safari (Mac)
 
 Screenshot
+
 <img width="334" height="169" alt="image" src="https://github.com/user-attachments/assets/aa0220f0-69af-4615-9df9-1e13d9943dc6" />
 
 Future Updates
